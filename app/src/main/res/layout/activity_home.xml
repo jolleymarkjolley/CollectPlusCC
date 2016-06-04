@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="252dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/collectplus"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="316dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/SendNewParcel"
+            android:text="Send a new parcel"
+            android:drawableTop="@drawable/delparcel"
+            android:layout_marginLeft="85dp"
+            android:textColor="#ff7003"
+            android:textSize="40dp"
+            android:onClick="ButtonClicked"/>
+
+
+        <Button
+            android:layout_width="316dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/Print"
+            android:text="Print your labels"
+            android:drawableTop="@drawable/zd410"
+            android:layout_marginLeft="85dp"
+            android:textColor="#ff7003"
+            android:textSize="40dp"
+            android:onClick="ButtonClicked"/>
+
+        <Button
+            android:layout_width="316dp"
+            android:layout_height="fill_parent"
+            android:text="Collect a parcel"
+            android:drawableTop="@drawable/iphone"
+            android:layout_marginLeft="85dp"
+            android:textColor="#ff7003"
+            android:textSize="40dp"
+            android:id="@+id/Collect"
+            android:onClick="ButtonClicked"/>
+
+    </LinearLayout>
+
+</LinearLayout>
